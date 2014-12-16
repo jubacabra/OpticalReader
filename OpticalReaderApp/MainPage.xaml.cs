@@ -76,21 +76,12 @@ namespace OpticalReaderApp
             }
 
             var showDebugInformation = DebugCheckBox.IsChecked != null && (bool)DebugCheckBox.IsChecked;
-            var useCustomProcessor = ProcessorCheckBox.IsChecked != null && (bool)ProcessorCheckBox.IsChecked;
+            
             var focusInterval = new TimeSpan(0, 0, 0, 0, 2500);
             var objectSize = _size <= 10 ? new Windows.Foundation.Size(_size * 10, _size * 10) : new Windows.Foundation.Size(0, 0);
-            var requireConfirmation = ConfirmationCheckBox.IsChecked != null && (bool)ConfirmationCheckBox.IsChecked;
+            
 
-            if (useCustomProcessor)
-            {
-                _processor = new CustomProcessor();
-
-                focusInterval = new TimeSpan(0, 0, 0, 0, 4000);
-            }
-            else
-            {
-                _processor = new OpticalReaderLib.ZxingProcessor();
-            }
+            
 
             _task = new OpticalReaderLib.OpticalReaderTask()
             {
@@ -98,7 +89,7 @@ namespace OpticalReaderApp
                 ShowDebugInformation = showDebugInformation,
                 FocusInterval = focusInterval,
                 ObjectSize = objectSize,
-                RequireConfirmation = requireConfirmation
+                
             };
 
             _task.Completed += OpticalReaderTask_Completed;
