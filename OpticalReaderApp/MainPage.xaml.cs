@@ -18,6 +18,7 @@ using System.Windows.Navigation;
 using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
 
+
 namespace OpticalReaderApp
 {
     public partial class MainPage : PhoneApplicationPage
@@ -30,6 +31,7 @@ namespace OpticalReaderApp
         public MainPage()
         {
             InitializeComponent();
+           
         }
 
         protected override void OnNavigatedTo(NavigationEventArgs e)
@@ -49,6 +51,13 @@ namespace OpticalReaderApp
                     TypeTextBlock.Text = String.Format("{0} ({1} bytes)", _taskResult.Format, byteCount);
                     DescriptionTextBlock.Text = _taskResult.Text;
                     ThumbnailImage.Source = _taskResult.Thumbnail;
+                    if (DescriptionTextBlock.Text == "tel:00000001")
+                    {
+                        RigtigText.Text = "Mystery1 Unlocked";
+                        
+
+
+                    }
                 }
                 else
                 {
@@ -66,6 +75,7 @@ namespace OpticalReaderApp
         {
             TypeTextBlock.Text = "";
             DescriptionTextBlock.Text = "";
+            RigtigText.Text = "";
             ThumbnailImage.Source = null;
 
             if (_task != null)
@@ -122,5 +132,12 @@ namespace OpticalReaderApp
                 }
             }
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(
+            new Uri("/page1.xaml", UriKind.Relative));
+        }
+        
     }
 }

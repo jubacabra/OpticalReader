@@ -42,3 +42,4 @@ C:\Users\Jubacabra\Desktop\Optican Reaer\OpticalReaderApp\obj\ARM\Debug\Multiple
 C:\Users\Jubacabra\Desktop\Optican Reaer\OpticalReaderApp\obj\ARM\Debug\ProjectArchitectures.txt
 C:\Users\Jubacabra\Desktop\Optican Reaer\OpticalReaderApp\obj\ARM\Debug\MDILProjectFiles.xml
 C:\Users\Jubacabra\Desktop\Optican Reaer\OpticalReaderApp\obj\ARM\Debug\XapCacheFile.xml
+C:\Users\Jubacabra\Desktop\Optican Reaer\OpticalReaderApp\obj\ARM\Debug\Page1.g.cs

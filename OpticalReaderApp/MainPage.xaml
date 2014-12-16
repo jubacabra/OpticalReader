@@ -33,7 +33,7 @@
         <!--TitlePanel contains the name of the application and page title-->
         <StackPanel Grid.Row="0" Margin="12,17,0,28">
             <TextBlock Text="OPTICAL READER DEMO" Style="{StaticResource PhoneTextNormalStyle}"/>
-            <TextBlock Text="hello, barcode" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
+            <TextBlock Text="Find Mysteries" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
         </StackPanel>
 
         <!--ContentPanel - place additional content here-->
@@ -42,18 +42,19 @@
                 <RowDefinition/>
                 <RowDefinition Height="Auto"/>
             </Grid.RowDefinitions>
-            
-            <StackPanel x:Name="GuideStackPanel">
+
+            <StackPanel x:Name="GuideStackPanel" Margin="0,0,0,331">
                 <TextBlock TextWrapping="Wrap" Margin="12,0,12,0" FontSize="16"
-                           Text="Select the target barcode size with the slider to optimize the reader for the requested barcode size, toggle the checkbox to select between built-in enhancer and application specific custom enhancer, and click on the 'read code' button to open the reader view."/>
+                           Text="This App Will Test The Qr Scanner Using The OpticalReaderLib"/>
                 <TextBlock TextWrapping="Wrap" Margin="12" FontSize="16"
-                           Text="According to the size setting and the charasteristics of the device's camera, like minimum focus distance and focal length, reader automatically optimizes digital zoom so that the user is invited to bring the device to the optimal reading distance from the code. Optimal reading distance is typically the device camera specific minimum focus distance, but not any closer, so that the camera is able to focus and the maximum available resolution is used to capture the barcode itself before sending it to the barcode decoder."/>
+                           Text="Go Ahead, Start Scanning The QR And Unlock The Mystery"/>
             </StackPanel>
 
-            <StackPanel x:Name="ResultStackPanel" Visibility="Collapsed">
-                <Image x:Name="ThumbnailImage" Width="240" Height="240"/>
+            <StackPanel x:Name="ResultStackPanel">
+                <Image x:Name="ThumbnailImage" Height="186" Margin="108,0,172,0"/>
                 <TextBlock x:Name="TypeTextBlock" TextWrapping="Wrap" Margin="12" TextAlignment="Center"/>
                 <TextBlock x:Name="DescriptionTextBlock" TextWrapping="Wrap" Margin="12" TextAlignment="Center"/>
+                <TextBlock x:Name="RigtigText" TextWrapping="Wrap"/>
             </StackPanel>
 
             <Grid Grid.Row="1">
@@ -94,15 +95,16 @@
                         <ColumnDefinition/>
                         <ColumnDefinition Width="Auto"/>
                     </Grid.ColumnDefinitions>
-                    
+
                     <Slider x:Name="SizeSlider" Minimum="1" Maximum="11" Margin="0,12,0,-20"
                             ValueChanged="SizeSlider_ValueChanged" Value="6"/>
                     <TextBlock x:Name="SizeTextBlock" Grid.Column="1" VerticalAlignment="Center" Margin="12"/>
                 </Grid>
             </Grid>
+            <Button Content="Go To Mysteries&#xD;&#xA;" HorizontalAlignment="Left" Margin="10,329,0,0" VerticalAlignment="Top" Height="102" Width="436" Click="Button_Click"/>
         </Grid>
     </Grid>
-    
+
     <phone:PhoneApplicationPage.ApplicationBar>
         <shell:ApplicationBar>
             <shell:ApplicationBarIconButton IconUri="Assets/Icons/search.png" Text="read code" Click="ReadCodeButton_Click"/>

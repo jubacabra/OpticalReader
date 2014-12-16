@@ -1,0 +1,6 @@
+C:\Users\Jubacabra\Desktop\Optican Reaer\OpticalReaderApp\obj\Debug\App.g.cs
+C:\Users\Jubacabra\Desktop\Optican Reaer\OpticalReaderApp\obj\Debug\MainPage.g.cs
+C:\Users\Jubacabra\Desktop\Optican Reaer\OpticalReaderApp\obj\Debug\Page1.g.cs
+C:\Users\Jubacabra\Desktop\Optican Reaer\OpticalReaderApp\obj\Debug\OpticalReaderApp.g.resources
+C:\Users\Jubacabra\Desktop\Optican Reaer\OpticalReaderApp\obj\Debug\OpticalReaderApp.Resources.AppResources.resources
+C:\Users\Jubacabra\Desktop\Optican Reaer\OpticalReaderApp\obj\Debug\OpticalReaderApp.csproj.GenerateResource.Cache
