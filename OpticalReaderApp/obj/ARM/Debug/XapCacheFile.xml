@@ -1,0 +1,30 @@
+﻿<xapCache source="C:\Users\Jubacabra\Desktop\Optican Reaer\OpticalReaderApp\Bin\ARM\Debug\OpticalReaderApp_Debug_ARM.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="12/16/2014 5:27:39 AM">
+  <file source="C:\Users\Jubacabra\Desktop\Optican Reaer\OpticalReaderApp\Bin\ARM\Debug\resources.pri" archivePath="resources.pri" lastWriteTime="12/16/2014 5:27:36 AM" />
+  <file source="C:\Users\Jubacabra\Desktop\Optican Reaer\OpticalReaderApp\obj\ARM\Debug\OpticalReaderApp.dll" archivePath="OpticalReaderApp.dll" lastWriteTime="12/16/2014 5:27:35 AM" />
+  <file source="C:\Users\Jubacabra\Desktop\Optican Reaer\OpticalReaderApp\Assets\AlignmentGrid.png" archivePath="Assets\AlignmentGrid.png" lastWriteTime="1/16/2014 3:13:56 PM" />
+  <file source="C:\Users\Jubacabra\Desktop\Optican Reaer\OpticalReaderApp\Assets\BadgeLogo.png" archivePath="Assets\BadgeLogo.png" lastWriteTime="12/16/2014 5:26:53 AM" />
+  <file source="C:\Users\Jubacabra\Desktop\Optican Reaer\OpticalReaderApp\Assets\Icons\search.png" archivePath="Assets\Icons\search.png" lastWriteTime="1/16/2014 3:13:56 PM" />
+  <file source="C:\Users\Jubacabra\Desktop\Optican Reaer\OpticalReaderApp\Assets\Logo.png" archivePath="Assets\Logo.png" lastWriteTime="12/16/2014 5:26:53 AM" />
+  <file source="C:\Users\Jubacabra\Desktop\Optican Reaer\OpticalReaderApp\Assets\SplashScreen.png" archivePath="Assets\SplashScreen.png" lastWriteTime="12/16/2014 5:26:53 AM" />
+  <file source="C:\Users\Jubacabra\Desktop\Optican Reaer\OpticalReaderApp\Assets\SquareTile150x150.png" archivePath="Assets\SquareTile150x150.png" lastWriteTime="12/16/2014 5:26:53 AM" />
+  <file source="C:\Users\Jubacabra\Desktop\Optican Reaer\OpticalReaderApp\Assets\SquareTile71x71.png" archivePath="Assets\SquareTile71x71.png" lastWriteTime="12/16/2014 5:26:53 AM" />
+  <file source="C:\Users\Jubacabra\Desktop\Optican Reaer\OpticalReaderApp\Assets\StoreLogo.png" archivePath="Assets\StoreLogo.png" lastWriteTime="12/16/2014 5:26:53 AM" />
+  <file source="C:\Users\Jubacabra\Desktop\Optican Reaer\OpticalReaderApp\Assets\Tiles\iconic.png" archivePath="Assets\Tiles\iconic.png" lastWriteTime="1/16/2014 3:13:56 PM" />
+  <file source="C:\Users\Jubacabra\Desktop\Optican Reaer\OpticalReaderApp\Assets\WideLogo.png" archivePath="Assets\WideLogo.png" lastWriteTime="12/16/2014 5:26:53 AM" />
+  <file source="C:\Users\Jubacabra\Desktop\Optican Reaer\OpticalReaderApp\Bin\ARM\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="12/16/2014 5:27:39 AM" />
+  <file source="C:\Users\Jubacabra\Desktop\Optican Reaer\OpticalReaderApp\Bin\ARM\Debug\Assets\ApplicationIcon.png" archivePath="Assets\ApplicationIcon.png" lastWriteTime="1/16/2014 3:13:56 PM" />
+  <file source="C:\Users\Jubacabra\Desktop\Optican Reaer\OpticalReaderLib\Bin\ARM\Debug\OpticalReaderLib.dll" archivePath="OpticalReaderLib.dll" lastWriteTime="12/16/2014 5:27:34 AM" />
+  <file source="C:\Users\Jubacabra\Desktop\Optican Reaer\OpticalReaderLib\Bin\ARM\Debug\zxing.wp8.0.dll" archivePath="zxing.wp8.0.dll" lastWriteTime="12/16/2014 5:27:33 AM" />
+  <file source="C:\Users\Jubacabra\Desktop\Optican Reaer\OpticalReaderLib\Bin\ARM\Debug\Nokia.Graphics.Imaging.winmd" archivePath="Nokia.Graphics.Imaging.winmd" lastWriteTime="12/16/2014 5:27:31 AM" />
+  <file source="C:\Users\Jubacabra\Desktop\Optican Reaer\OpticalReaderLib\Bin\ARM\Debug\Nokia.Graphics.Imaging.Managed.dll" archivePath="Nokia.Graphics.Imaging.Managed.dll" lastWriteTime="12/16/2014 5:27:31 AM" />
+  <file source="C:\Users\Jubacabra\Desktop\Optican Reaer\OpticalReaderLib\Bin\ARM\Debug\Nokia.InteropServices.WindowsRuntime.winmd" archivePath="Nokia.InteropServices.WindowsRuntime.winmd" lastWriteTime="12/16/2014 5:27:31 AM" />
+  <file source="C:\Users\Jubacabra\Desktop\Optican Reaer\OpticalReaderLib\Bin\ARM\Debug\zxing.wp8.0.xml" archivePath="zxing.wp8.0.xml" lastWriteTime="12/16/2014 5:27:33 AM" />
+  <file source="C:\Users\Jubacabra\Desktop\Optican Reaer\OpticalReaderLib\Bin\ARM\Debug\Nokia.Graphics.Imaging.dll" archivePath="Nokia.Graphics.Imaging.dll" lastWriteTime="12/16/2014 5:27:31 AM" />
+  <file source="C:\Users\Jubacabra\Desktop\Optican Reaer\OpticalReaderLib\Bin\ARM\Debug\Nokia.Graphics.Imaging.xml" archivePath="Nokia.Graphics.Imaging.xml" lastWriteTime="12/16/2014 5:27:31 AM" />
+  <file source="C:\Users\Jubacabra\Desktop\Optican Reaer\OpticalReaderLib\Bin\ARM\Debug\Nokia.Graphics.Imaging.Managed.xml" archivePath="Nokia.Graphics.Imaging.Managed.xml" lastWriteTime="12/16/2014 5:27:31 AM" />
+  <file source="C:\Users\Jubacabra\Desktop\Optican Reaer\OpticalReaderLib\Bin\ARM\Debug\Nokia.InteropServices.WindowsRuntime.dll" archivePath="Nokia.InteropServices.WindowsRuntime.dll" lastWriteTime="12/16/2014 5:27:31 AM" />
+  <file source="C:\Users\Jubacabra\Desktop\Optican Reaer\OpticalReaderLib\Bin\ARM\Debug\Nokia.InteropServices.WindowsRuntime.xml" archivePath="Nokia.InteropServices.WindowsRuntime.xml" lastWriteTime="12/16/2014 5:27:31 AM" />
+  <file source="C:\Users\Jubacabra\Desktop\Optican Reaer\OpticalReaderApp\Bin\ARM\Debug\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="12/16/2014 5:27:39 AM" />
+  <file source="C:\Users\Jubacabra\Desktop\Optican Reaer\OpticalReaderApp\obj\ARM\Debug\MDILProjectFiles.xml" archivePath="MDILProjectFiles.xml" lastWriteTime="12/16/2014 5:27:39 AM" />
+  <file source="C:\Users\Jubacabra\Desktop\Optican Reaer\OpticalReaderApp\Bin\ARM\Debug\AppxManifest.xml" archivePath="AppxManifest.xml" lastWriteTime="12/16/2014 5:27:37 AM" />
+</xapCache>

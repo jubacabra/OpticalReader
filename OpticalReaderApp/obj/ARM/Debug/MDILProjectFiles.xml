@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Files>
+  <XAPFiles>
+    <File>resources.pri</File>
+    <File>OpticalReaderApp.dll</File>
+    <File>Assets\AlignmentGrid.png</File>
+    <File>Assets\BadgeLogo.png</File>
+    <File>Assets\Icons\search.png</File>
+    <File>Assets\Logo.png</File>
+    <File>Assets\SplashScreen.png</File>
+    <File>Assets\SquareTile150x150.png</File>
+    <File>Assets\SquareTile71x71.png</File>
+    <File>Assets\StoreLogo.png</File>
+    <File>Assets\Tiles\iconic.png</File>
+    <File>Assets\WideLogo.png</File>
+    <File>AppManifest.xaml</File>
+    <File>Assets\ApplicationIcon.png</File>
+    <File>OpticalReaderLib.dll</File>
+    <File>zxing.wp8.0.dll</File>
+    <File>Nokia.Graphics.Imaging.winmd</File>
+    <File>Nokia.Graphics.Imaging.Managed.dll</File>
+    <File>Nokia.InteropServices.WindowsRuntime.winmd</File>
+    <File>zxing.wp8.0.xml</File>
+    <File>Nokia.Graphics.Imaging.dll</File>
+    <File>Nokia.Graphics.Imaging.xml</File>
+    <File>Nokia.Graphics.Imaging.Managed.xml</File>
+    <File>Nokia.InteropServices.WindowsRuntime.dll</File>
+    <File>Nokia.InteropServices.WindowsRuntime.xml</File>
+    <File>WMAppManifest.xml</File>
+    <File>AppxManifest.xml</File>
+  </XAPFiles>
+  <APPXFiles />
+</Files>

@@ -1,0 +1,2 @@
+C:\Users\Jubacabra\Desktop\Optican Reaer\OpticalReaderApp\OpticalReaderApp.csproj;arm
+C:\Users\Jubacabra\Desktop\Optican Reaer\OpticalReaderLib\OpticalReaderLib.csproj;arm
