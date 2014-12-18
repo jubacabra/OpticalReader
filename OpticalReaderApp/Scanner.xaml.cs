@@ -135,8 +135,8 @@ namespace OpticalReaderApp
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            NavigationService.Navigate(
-            new Uri("/page1.xaml", UriKind.Relative));
+            //NavigationService.Navigate(
+            //new Uri("/page1.xaml", UriKind.Relative));
         }
         
     }

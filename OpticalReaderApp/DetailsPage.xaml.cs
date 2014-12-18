@@ -4,6 +4,7 @@ using System.Linq;
 using System.Net;
 using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
@@ -34,6 +35,30 @@ namespace DataBoundApp1
                     int index = int.Parse(selectedIndex);
                     DataContext = App.ViewModel.Items[index];
                 }
+            }
+            if (DetailHeader.Text == "Comwell")
+            {
+                DetailImage.Source = new BitmapImage(new Uri("http://media-cdn.tripadvisor.com/media/photo-s/02/a5/bb/65/comwell-roskilde.jpg"));
+            }
+            if (DetailHeader.Text == "Danhostel")
+            {
+                DetailImage.Source = new BitmapImage(new Uri("http://www.cleartrip.com/places/hotels//5995/599533/images/6933978_w.jpg"));
+            }
+            if (DetailHeader.Text == "Scandic")
+            {
+                DetailImage.Source = new BitmapImage(new Uri("http://www.kursuslex.dk/billeder/672_generelt_billede1__%7BCA0E2709-485E-4406-BD45-DA5FB524F951%7D_stor_.jpg"));
+            }
+            if (DetailHeader.Text == "Motel Wittrup")
+            {
+                DetailImage.Source = new BitmapImage(new Uri("http://www.visitvestegnen.dk/sites/default/files/styles/galleries_ratio/public/asp/visitvestegnen/hotel/wittrup-vaerelser-ext.jpg?itok=1q3nGXs5"));
+            }
+            if (DetailHeader.Text == "Hotel Viby Kro")
+            {
+                DetailImage.Source = new BitmapImage(new Uri("http://www.vibykro.dk/Billeder/Kroen.jpg"));
+            }
+            if (DetailHeader.Text == "Hotel Prindsen")
+            {
+                DetailImage.Source = new BitmapImage(new Uri("http://www.kulturarv.dk/1001fortaellinger/uploads/images/editions/prindsen-nat/690x_.jpg"));
             }
         }
 

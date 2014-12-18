@@ -48,14 +48,14 @@
                 <RowDefinition Height="Auto"/>
             </Grid.RowDefinitions>
 
-            <StackPanel x:Name="GuideStackPanel" Margin="0,0,0,331"/>
+            <StackPanel x:Name="GuideStackPanel" Margin="0,0,0,131"/>
+            <TextBlock TextWrapping="Wrap" Margin="10,36,35,90" FontSize="25"
+            		Text="This App Will Test The Qr Scanner Using The OpticalReaderLib" Foreground="Black" Grid.RowSpan="2"/>
+            <TextBlock TextWrapping="Wrap" Margin="12,108,33,42" FontSize="25"
+                	Text="Go Ahead, Start Scanning The QR And Unlock The Mystery" Foreground="Black" Grid.RowSpan="2"/>
 
             <StackPanel x:Name="ResultStackPanel" Background="#FFFFD5BD" Grid.RowSpan="2" Margin="-10,36,-11,-36">
 
-                <TextBlock TextWrapping="Wrap" Margin="12,0,33,0" FontSize="25"
-            		Text="This App Will Test The Qr Scanner Using The OpticalReaderLib" Foreground="Black"/>
-                <TextBlock TextWrapping="Wrap" Margin="12,12,33,12" FontSize="25"
-                	Text="Go Ahead, Start Scanning The QR And Unlock The Mystery" Foreground="Black"/>
                 <Image x:Name="ThumbnailImage" Height="186" Margin="108,0,172,0"/>
                 <TextBlock x:Name="TypeTextBlock" TextWrapping="Wrap" Margin="12" TextAlignment="Center"/>
                 <TextBlock x:Name="DescriptionTextBlock" TextWrapping="Wrap" Margin="12" TextAlignment="Center"/>

@@ -1,96 +1,96 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>JUBACABRA-PC</Machine>
+    <Machine>GORDON-PC</Machine>
     <WindowsUser>Jubacabra</WindowsUser>
     <TargetPlatformIdentifier>Windows Phone</TargetPlatformIdentifier>
     <SolutionConfiguration>Debug|ARM</SolutionConfiguration>
     <PackageArchitecture>arm</PackageArchitecture>
     <PackageIdentityName>2097222f-a34e-4bb8-95bb-2e88961e55d5</PackageIdentityName>
-    <IntermediateOutputPath>C:\Users\Jubacabra\Desktop\Optican Reaer\OpticalReaderApp\obj\ARM\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Jubacabra\Desktop\Repositories\OpticalReaderLaptop\OpticalReaderApp\obj\ARM\Debug\</IntermediateOutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Jubacabra\Desktop\Optican Reaer\OpticalReaderApp\Bin\ARM\Debug\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Jubacabra\Desktop\Repositories\OpticalReaderLaptop\OpticalReaderApp\Bin\ARM\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Optican Reaer\OpticalReaderApp\Bin\ARM\Debug\OpticalReaderApp.dll">
+    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\OpticalReaderLaptop\OpticalReaderApp\Bin\ARM\Debug\OpticalReaderApp.dll">
       <PackagePath>OpticalReaderApp.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Optican Reaer\OpticalReaderLib\Bin\ARM\Debug\OpticalReaderLib.dll">
+    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\OpticalReaderLaptop\OpticalReaderLib\Bin\ARM\Debug\OpticalReaderLib.dll">
       <PackagePath>OpticalReaderLib.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Optican Reaer\OpticalReaderLib\Bin\ARM\Debug\zxing.wp8.0.dll">
+    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\OpticalReaderLaptop\OpticalReaderLib\Bin\ARM\Debug\zxing.wp8.0.dll">
       <PackagePath>zxing.wp8.0.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Optican Reaer\OpticalReaderLib\Bin\ARM\Debug\Nokia.Graphics.Imaging.Managed.dll">
+    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\OpticalReaderLaptop\OpticalReaderLib\Bin\ARM\Debug\Nokia.Graphics.Imaging.Managed.dll">
       <PackagePath>Nokia.Graphics.Imaging.Managed.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Optican Reaer\OpticalReaderLib\Bin\ARM\Debug\Nokia.Graphics.Imaging.dll">
+    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\OpticalReaderLaptop\OpticalReaderLib\Bin\ARM\Debug\Nokia.Graphics.Imaging.dll">
       <PackagePath>Nokia.Graphics.Imaging.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Optican Reaer\OpticalReaderLib\Bin\ARM\Debug\Nokia.InteropServices.WindowsRuntime.dll">
+    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\OpticalReaderLaptop\OpticalReaderLib\Bin\ARM\Debug\Nokia.InteropServices.WindowsRuntime.dll">
       <PackagePath>Nokia.InteropServices.WindowsRuntime.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Optican Reaer\OpticalReaderLib\Bin\ARM\Debug\Nokia.Graphics.Imaging.winmd">
+    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\OpticalReaderLaptop\OpticalReaderLib\Bin\ARM\Debug\Nokia.Graphics.Imaging.winmd">
       <PackagePath>Nokia.Graphics.Imaging.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Optican Reaer\OpticalReaderLib\Bin\ARM\Debug\Nokia.InteropServices.WindowsRuntime.winmd">
+    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\OpticalReaderLaptop\OpticalReaderLib\Bin\ARM\Debug\Nokia.InteropServices.WindowsRuntime.winmd">
       <PackagePath>Nokia.InteropServices.WindowsRuntime.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Optican Reaer\OpticalReaderLib\Bin\ARM\Debug\zxing.wp8.0.xml">
+    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\OpticalReaderLaptop\OpticalReaderLib\Bin\ARM\Debug\zxing.wp8.0.xml">
       <PackagePath>zxing.wp8.0.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Optican Reaer\OpticalReaderLib\Bin\ARM\Debug\Nokia.Graphics.Imaging.xml">
+    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\OpticalReaderLaptop\OpticalReaderLib\Bin\ARM\Debug\Nokia.Graphics.Imaging.xml">
       <PackagePath>Nokia.Graphics.Imaging.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Optican Reaer\OpticalReaderLib\Bin\ARM\Debug\Nokia.Graphics.Imaging.Managed.xml">
+    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\OpticalReaderLaptop\OpticalReaderLib\Bin\ARM\Debug\Nokia.Graphics.Imaging.Managed.xml">
       <PackagePath>Nokia.Graphics.Imaging.Managed.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Optican Reaer\OpticalReaderLib\Bin\ARM\Debug\Nokia.InteropServices.WindowsRuntime.xml">
+    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\OpticalReaderLaptop\OpticalReaderLib\Bin\ARM\Debug\Nokia.InteropServices.WindowsRuntime.xml">
       <PackagePath>Nokia.InteropServices.WindowsRuntime.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Optican Reaer\OpticalReaderApp\Assets\AlignmentGrid.png">
+    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\OpticalReaderLaptop\OpticalReaderApp\Assets\AlignmentGrid.png">
       <PackagePath>Assets\AlignmentGrid.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Optican Reaer\OpticalReaderApp\Assets\ApplicationIcon.png">
+    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\OpticalReaderLaptop\OpticalReaderApp\Assets\ApplicationIcon.png">
       <PackagePath>Assets\ApplicationIcon.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Optican Reaer\OpticalReaderApp\Assets\BadgeLogo.png">
+    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\OpticalReaderLaptop\OpticalReaderApp\Assets\BadgeLogo.png">
       <PackagePath>Assets\BadgeLogo.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Optican Reaer\OpticalReaderApp\Assets\Icons\search.png">
+    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\OpticalReaderLaptop\OpticalReaderApp\Assets\Icons\search.png">
       <PackagePath>Assets\Icons\search.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Optican Reaer\OpticalReaderApp\Assets\Logo.png">
+    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\OpticalReaderLaptop\OpticalReaderApp\Assets\Logo.png">
       <PackagePath>Assets\Logo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Optican Reaer\OpticalReaderApp\Assets\SplashScreen.png">
+    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\OpticalReaderLaptop\OpticalReaderApp\Assets\SplashScreen.png">
       <PackagePath>Assets\SplashScreen.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Optican Reaer\OpticalReaderApp\Assets\SquareTile150x150.png">
+    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\OpticalReaderLaptop\OpticalReaderApp\Assets\SquareTile150x150.png">
       <PackagePath>Assets\SquareTile150x150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Optican Reaer\OpticalReaderApp\Assets\SquareTile71x71.png">
+    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\OpticalReaderLaptop\OpticalReaderApp\Assets\SquareTile71x71.png">
       <PackagePath>Assets\SquareTile71x71.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Optican Reaer\OpticalReaderApp\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\OpticalReaderLaptop\OpticalReaderApp\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Optican Reaer\OpticalReaderApp\Assets\Tiles\iconic.png">
+    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\OpticalReaderLaptop\OpticalReaderApp\Assets\Tiles\iconic.png">
       <PackagePath>Assets\Tiles\iconic.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Optican Reaer\OpticalReaderApp\Assets\WideLogo.png">
+    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\OpticalReaderLaptop\OpticalReaderApp\Assets\WideLogo.png">
       <PackagePath>Assets\WideLogo.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Optican Reaer\OpticalReaderApp\Bin\ARM\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\OpticalReaderLaptop\OpticalReaderApp\Bin\ARM\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>
