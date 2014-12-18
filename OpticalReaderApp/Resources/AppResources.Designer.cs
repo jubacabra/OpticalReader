@@ -104,5 +104,7 @@ namespace OpticalReaderApp.Resources {
                 return ResourceManager.GetString("ResourceLanguage", resourceCulture);
             }
         }
+
+        public static string SampleProperty { get; set; }
     }
 }

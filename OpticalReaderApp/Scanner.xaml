@@ -1,0 +1,119 @@
+﻿<!--
+    Copyright (c) 2014 Nokia Corporation. All rights reserved.
+    
+    Nokia and Nokia Connecting People are registered trademarks of Nokia Corporation.
+    Other product and company names mentioned herein may be trademarks
+    or trade names of their respective owners.
+    
+    See the license text file for license information.
+-->
+
+<phone:PhoneApplicationPage
+    x:Class="OpticalReaderApp.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="False">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="#FFFF7F15">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel contains the name of the application and page title-->
+
+        <!--TitlePanel contains the name of the application and page title-->
+        <Rectangle Fill="#FFFFD5BD" HorizontalAlignment="Left" Height="531" Stroke="Black" VerticalAlignment="Top" Width="480" Margin="0,36,0,0" Grid.Row="1"/>
+
+        <!--TitlePanel contains the name of the application and page title-->
+        <StackPanel Grid.Row="0" Margin="12,17,0,28">
+            <TextBlock Text="OPTICAL READER DEMO" Style="{StaticResource PhoneTextNormalStyle}"/>
+            <TextBlock Text="Find Mysteries" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
+        </StackPanel>
+
+        <!--ContentPanel - place additional content here-->
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <StackPanel x:Name="GuideStackPanel" Margin="0,0,0,331"/>
+
+            <StackPanel x:Name="ResultStackPanel" Background="#FFFFD5BD" Grid.RowSpan="2" Margin="-10,36,-11,-36">
+
+                <TextBlock TextWrapping="Wrap" Margin="12,0,33,0" FontSize="25"
+            		Text="This App Will Test The Qr Scanner Using The OpticalReaderLib" Foreground="Black"/>
+                <TextBlock TextWrapping="Wrap" Margin="12,12,33,12" FontSize="25"
+                	Text="Go Ahead, Start Scanning The QR And Unlock The Mystery" Foreground="Black"/>
+                <Image x:Name="ThumbnailImage" Height="186" Margin="108,0,172,0"/>
+                <TextBlock x:Name="TypeTextBlock" TextWrapping="Wrap" Margin="12" TextAlignment="Center"/>
+                <TextBlock x:Name="DescriptionTextBlock" TextWrapping="Wrap" Margin="12" TextAlignment="Center"/>
+                <TextBlock x:Name="RigtigText" TextWrapping="Wrap"/>
+            </StackPanel>
+
+            <Grid Grid.Row="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                </Grid>
+
+                <Grid Grid.Row="1">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+
+                    <CheckBox x:Name="DebugCheckBox" Margin="0,-10,-12,-12" Foreground="White" BorderBrush="Black" Background="#FFFF7F15"/>
+                    <TextBlock x:Name="DebugTextBlock" Grid.Column="1" VerticalAlignment="Center" Margin="0"
+                               Text="Show debug information" Foreground="Black"/>
+                </Grid>
+
+                <Grid Grid.Row="2">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                </Grid>
+
+                <Grid Grid.Row="3">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Slider x:Name="SizeSlider" Minimum="1" Maximum="11" Margin="0,12,0,-20"
+                            ValueChanged="SizeSlider_ValueChanged" Value="6"/>
+                    <TextBlock x:Name="SizeTextBlock" Grid.Column="1" VerticalAlignment="Center" Margin="12" Foreground="#FF020000"/>
+                </Grid>
+            </Grid>
+            <Button Content="Go To Mysteries&#xA;" HorizontalAlignment="Left" Margin="10,329,0,0" VerticalAlignment="Top" Height="102" Width="436" Click="Button_Click" Background="#FFFF7F15" BorderBrush="Black" Foreground="Black"/>
+        </Grid>
+    </Grid>
+
+    <phone:PhoneApplicationPage.ApplicationBar>
+        <shell:ApplicationBar>
+            <shell:ApplicationBarIconButton IconUri="Assets/Icons/search.png" Text="read code" Click="ReadCodeButton_Click"/>
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>
+
+</phone:PhoneApplicationPage>

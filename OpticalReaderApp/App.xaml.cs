@@ -14,6 +14,7 @@ using System.Resources;
 using System.Windows;
 using System.Windows.Markup;
 using System.Windows.Navigation;
+using DataBoundApp1.ViewModels;
 using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
 using OpticalReaderApp.Resources;
@@ -25,12 +26,24 @@ namespace OpticalReaderApp
 {
     public partial class App : Application
     {
+        private static MainViewModel viewModel = null;
         /// <summary>
         /// Provides easy access to the root frame of the Phone Application.
         /// </summary>
         /// <returns>The root frame of the Phone Application.</returns>
         public static PhoneApplicationFrame RootFrame { get; private set; }
 
+        public static MainViewModel ViewModel
+        {
+            get
+            {
+                // Delay creation of the view model until necessary
+                if (viewModel == null)
+                    viewModel = new MainViewModel();
+
+                return viewModel;
+            }
+        }
         /// <summary>
         /// Constructor for the Application object.
         /// </summary>
@@ -232,5 +245,7 @@ namespace OpticalReaderApp
                 throw;
             }
         }
+
+        
     }
 }

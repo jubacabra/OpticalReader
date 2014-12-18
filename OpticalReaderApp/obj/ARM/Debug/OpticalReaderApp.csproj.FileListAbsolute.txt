@@ -22,7 +22,6 @@ C:\Users\Jubacabra\Desktop\Optican Reaer\OpticalReaderApp\Bin\ARM\Debug\Nokia.In
 C:\Users\Jubacabra\Desktop\Optican Reaer\OpticalReaderApp\Bin\ARM\Debug\Nokia.InteropServices.WindowsRuntime.xml
 C:\Users\Jubacabra\Desktop\Optican Reaer\OpticalReaderApp\obj\ARM\Debug\OpticalReaderApp.csprojResolveAssemblyReference.cache
 C:\Users\Jubacabra\Desktop\Optican Reaer\OpticalReaderApp\obj\ARM\Debug\App.g.cs
-C:\Users\Jubacabra\Desktop\Optican Reaer\OpticalReaderApp\obj\ARM\Debug\MainPage.g.cs
 C:\Users\Jubacabra\Desktop\Optican Reaer\OpticalReaderApp\obj\ARM\Debug\OpticalReaderApp.g.resources
 C:\Users\Jubacabra\Desktop\Optican Reaer\OpticalReaderApp\obj\ARM\Debug\OpticalReaderApp.Resources.AppResources.resources
 C:\Users\Jubacabra\Desktop\Optican Reaer\OpticalReaderApp\obj\ARM\Debug\OpticalReaderApp.csproj.GenerateResource.Cache
@@ -42,4 +41,8 @@ C:\Users\Jubacabra\Desktop\Optican Reaer\OpticalReaderApp\obj\ARM\Debug\Multiple
 C:\Users\Jubacabra\Desktop\Optican Reaer\OpticalReaderApp\obj\ARM\Debug\ProjectArchitectures.txt
 C:\Users\Jubacabra\Desktop\Optican Reaer\OpticalReaderApp\obj\ARM\Debug\MDILProjectFiles.xml
 C:\Users\Jubacabra\Desktop\Optican Reaer\OpticalReaderApp\obj\ARM\Debug\XapCacheFile.xml
-C:\Users\Jubacabra\Desktop\Optican Reaer\OpticalReaderApp\obj\ARM\Debug\Page1.g.cs
+C:\Users\Jubacabra\Desktop\Optican Reaer\OpticalReaderApp\obj\ARM\Debug\Scanner.g.cs
+C:\Users\Jubacabra\Desktop\Optican Reaer\OpticalReaderApp\obj\ARM\Debug\Mystery.g.cs
+C:\Users\Jubacabra\Desktop\Optican Reaer\OpticalReaderApp\obj\ARM\Debug\MainPage.g.cs
+C:\Users\Jubacabra\Desktop\Optican Reaer\OpticalReaderApp\obj\ARM\Debug\HotelView.g.cs
+C:\Users\Jubacabra\Desktop\Optican Reaer\OpticalReaderApp\obj\ARM\Debug\DetailsPage.g.cs

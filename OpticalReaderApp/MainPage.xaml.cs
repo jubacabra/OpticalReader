@@ -1,14 +1,4 @@
-﻿/**
- * Copyright (c) 2014 Nokia Corporation. All rights reserved.
- *
- * Nokia and Nokia Connecting People are registered trademarks of Nokia Corporation.
- * Other product and company names mentioned herein may be trademarks
- * or trade names of their respective owners.
- *
- * See the license text file for license information.
- */
-
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
@@ -17,127 +7,64 @@ using System.Windows.Controls;
 using System.Windows.Navigation;
 using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
+using OpticalReaderApp;
+using OpticalReaderApp.Resources;
+using DataBoundApp1.ViewModels;
 
-
-namespace OpticalReaderApp
+namespace DataBoundApp1
 {
     public partial class MainPage : PhoneApplicationPage
     {
-        private OpticalReaderLib.IProcessor _processor = null;
-        private OpticalReaderLib.OpticalReaderTask _task = null;
-        private OpticalReaderLib.OpticalReaderResult _taskResult = null;
-        private int _size = 3;
-
+        // Constructor
         public MainPage()
         {
             InitializeComponent();
-           
+
+            // Set the data context of the LongListSelector control to the sample data
+            DataContext = App.ViewModel;
+
+            // Sample code to localize the ApplicationBar
+            //BuildLocalizedApplicationBar();
         }
 
+        // Load data for the ViewModel Items
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
-            base.OnNavigatedTo(e);
-
-            SetSizeTextBlockText(_size);
-
-            if (_taskResult != null)
+            if (!App.ViewModel.IsDataLoaded)
             {
-                if (_taskResult.TaskResult == Microsoft.Phone.Tasks.TaskResult.OK)
-                {
-                    System.Diagnostics.Debug.WriteLine("Code read successfully");
-
-                    var byteCount = _taskResult.Data != null ? _taskResult.Data.Length : 0;
-
-                    TypeTextBlock.Text = String.Format("{0} ({1} bytes)", _taskResult.Format, byteCount);
-                    DescriptionTextBlock.Text = _taskResult.Text;
-                    ThumbnailImage.Source = _taskResult.Thumbnail;
-                    if (DescriptionTextBlock.Text == "tel:00000001")
-                    {
-                        RigtigText.Text = "Mystery1 Unlocked";
-                        
-
-
-                    }
-                }
-                else
-                {
-                    System.Diagnostics.Debug.WriteLine("Code reading aborted");
-                }
-
-                _taskResult = null;
-            }
-
-            ResultStackPanel.Visibility = ThumbnailImage.Source != null ? Visibility.Visible : Visibility.Collapsed;
-            GuideStackPanel.Visibility = ThumbnailImage.Source == null ? Visibility.Visible : Visibility.Collapsed;
-        }
-
-        private void ReadCodeButton_Click(object sender, EventArgs e)
-        {
-            TypeTextBlock.Text = "";
-            DescriptionTextBlock.Text = "";
-            RigtigText.Text = "";
-            ThumbnailImage.Source = null;
-
-            if (_task != null)
-            {
-                _task.Completed -= OpticalReaderTask_Completed;
-                _task.Dispose();
-                _task = null;
-            }
-
-            var showDebugInformation = DebugCheckBox.IsChecked != null && (bool)DebugCheckBox.IsChecked;
-            
-            var focusInterval = new TimeSpan(0, 0, 0, 0, 2500);
-            var objectSize = _size <= 10 ? new Windows.Foundation.Size(_size * 10, _size * 10) : new Windows.Foundation.Size(0, 0);
-            
-
-            
-
-            _task = new OpticalReaderLib.OpticalReaderTask()
-            {
-                Processor = _processor,
-                ShowDebugInformation = showDebugInformation,
-                FocusInterval = focusInterval,
-                ObjectSize = objectSize,
-                
-            };
-
-            _task.Completed += OpticalReaderTask_Completed;
-            _task.Show();
-        }
-
-        private void OpticalReaderTask_Completed(object sender, OpticalReaderLib.OpticalReaderResult e)
-        {
-            _taskResult = e;
-        }
-
-        private void SizeSlider_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
-        {
-            _size = (int)e.NewValue;
-
-            SetSizeTextBlockText(_size);
-        }
-
-        private void SetSizeTextBlockText(int size)
-        {
-            if (SizeTextBlock != null)
-            {
-                if (_size <= 10)
-                {
-                    SizeTextBlock.Text = String.Format("{0}x{0} cm", _size);
-                }
-                else
-                {
-                    SizeTextBlock.Text = "Default";
-                }
+                App.ViewModel.LoadData();
             }
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+       
+
+        
+
+        // Sample code for building a localized ApplicationBar
+        //private void BuildLocalizedApplicationBar()
+        //{
+        //    // Set the page's ApplicationBar to a new instance of ApplicationBar.
+        //    ApplicationBar = new ApplicationBar();
+
+        //    // Create a new button and set the text value to the localized string from AppResources.
+        //    ApplicationBarIconButton appBarButton = new ApplicationBarIconButton(new Uri("/Assets/AppBar/appbar.add.rest.png", UriKind.Relative));
+        //    appBarButton.Text = AppResources.AppBarButtonText;
+        //    ApplicationBar.Buttons.Add(appBarButton);
+
+        //    // Create a new menu item with the localized string from AppResources.
+        //    ApplicationBarMenuItem appBarMenuItem = new ApplicationBarMenuItem(AppResources.AppBarMenuItemText);
+        //    ApplicationBar.MenuItems.Add(appBarMenuItem);
+        //}
+        private void ScavengerButton_OnClick_Click(object sender, RoutedEventArgs e)
         {
             NavigationService.Navigate(
-            new Uri("/page1.xaml", UriKind.Relative));
+            new Uri("/Scanner.xaml", UriKind.Relative));
         }
-        
+
+        private void HotelButton_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(
+            new Uri("/HotelView.xaml", UriKind.Relative));
+        }
     }
 }
